@@ -42,11 +42,19 @@ main {
     
 }
 
+.inputs {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
 .add-subtract {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    padding: 10px;
+    margin: 10px;
     
 
 }
@@ -55,6 +63,7 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    margin: 10px;
    
    
 }
@@ -134,12 +143,12 @@ button {
     border: none;
     background-color: white;
     color: #457b9d;
-    width: 100px;
+    width: 140px;
     padding: 5px;
     border: 1px solid #457b9d;
     font-family: 'Orbitron', sans-serif;
     border-radius: 50px;
-    font-size: 40px;
+    font-size: 30px;
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -155,6 +164,12 @@ span {
     font-family: 'Orbitron', sans-serif;
     margin: 10px;
     font-size: 40px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+
+
 }
   
 footer {
