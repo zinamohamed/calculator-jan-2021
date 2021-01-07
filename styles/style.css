@@ -28,9 +28,8 @@ main {
 }
 
 .calculater {
-    
-    width: 600px;
-    height: 600px;
+    width: 500px;
+    height: 500px;
     max-width: 80%;
     display: flex;
     flex-direction: column;
@@ -85,55 +84,10 @@ footer {
 
 
 h2 {
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: bold;
 }
 
-.add-section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 20px;
-    
-    
-    
-    
-}
-
-.sub-section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 20px;
-    
-    
-    
-}
-
-.mult-section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 20px;
-    
-    
-   
-    
-}
-
-.div-section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 20px;
-    
-    
-    
-}
 
 .gutter-right {
     margin-right: 20px;
@@ -159,18 +113,19 @@ p {
 
 input {
     text-align: center;
-    border: 1px solid #a8dadc;
-    font-size: 1em;
+    border: 1px solid #457b9d;
+    font-size: 2em;
     color: #1d3557;
     font-family: 'Orbitron', sans-serif;
-    border-radius: 30px;
+    border-radius: 50px;
     margin: 5px;
+    width: 300px;
   }
 
 h3 {
     padding: 10px;
-    color:#457b9d;
-    font-size: 18px;
+    color:#1d3557;
+    font-size: 40px;
     font-family: 'Orbitron', sans-serif;
 }
 
@@ -183,7 +138,11 @@ button {
     padding: 5px;
     border: 1px solid #457b9d;
     font-family: 'Orbitron', sans-serif;
-    border-radius: 25px;
+    border-radius: 50px;
+    font-size: 40px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
 span {
@@ -194,7 +153,8 @@ span {
 .results {
     color:#1d3557;
     font-family: 'Orbitron', sans-serif;
-    margin: 10px
+    margin: 10px;
+    font-size: 40px;
 }
   
 footer {
