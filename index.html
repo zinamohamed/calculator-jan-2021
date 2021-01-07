@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/home.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <title>Calculator</title>
+</head>
+
+<body>
+    <header>
+        <div class="title">
+            <h1>Calculator</h1>
+        </div>
+    </header>
+    <main>
+        <section class="calculater">
+            <section class="add-subtract">
+                <div class= "add-section">
+                    <h3>Addition:</h3>
+                    <input id="add-input-1" type="number">
+                    <span>+</span>
+                    <input id="add-input-2" type="number">
+                    <button id="add-button">Calculate!</button>
+                    <div class="results" id="add-results"></div>
+                </div>
+                <div class="sub-section">
+                    <h3>Subtraction:</h3>
+                    <input id="sub-input-1" type="number">
+                    <span>-</span> 
+                    <input id="sub-input-2" type="number">
+                    <button id="sub-button">Calculate!</button>
+                    <div class="results" id="sub-results"></div>
+                </div>
+            </section>
+            <section class ="mult-div">
+                <div class="mult-section">
+                    <h3>Multiplication:</h3>
+                    <input id="mult-input-1" type="number">
+                    <span>*</span> 
+                    <input id="mult-input-2" type="number">
+                    <button id="mult-button">Calculate!</button>
+                    <div class="results" id="mult-results"></div>
+                </div>
+                <div class="div-section">
+                    <h3>Division:</h3>
+                    <input id="div-input-1" type="number">
+                    <span>/</span>
+                    <input id="div-input-2" type="number">
+                    <button id="div-button">Calculate!</button>
+                    <div class="results" id="div-results"></div>
+                </div>
+            </section>
+        </section>
+    </main>
+    <footer>
+        <div class="copy gutter-right">&copy; 2020 Alchemy Code Lab</div>
+    </footer>
+
+    <script type="module" src="app.js"></script>
+</body>
+
+</html>
