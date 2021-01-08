@@ -1,44 +1,21 @@
-var inputOne = document.getElementById('input-1');
-var inputTwo = document.getElementById('input-2');
-var addButton = document.getElementById('add-button');
-var subButton = document.getElementById('sub-button');
-var multButton = document.getElementById('mult-button');
-var divButton = document.getElementById('div-button');
-var allResults = document.getElementById('results');
+import { addClickHandler, subClickHandler, multClickHandler, divClickHandler } from './handlers.js';
+
+const addButton = document.getElementById('add-button');
+const subButton = document.getElementById('sub-button');
+const multButton = document.getElementById('mult-button');
+const divButton = document.getElementById('div-button');
+
+addButton.addEventListener('click', addClickHandler);
+ 
+
+subButton.addEventListener('click', subClickHandler);
 
 
+multButton.addEventListener('click', multClickHandler);
 
-addButton.addEventListener('click', () => {
-    const number1 = Number(inputOne.value);
-    const number2 = Number(inputTwo.value);
-    const result = number1 + number2;
 
-    allResults.textContent = result;
-}); 
+divButton.addEventListener('click', divClickHandler);
 
-subButton.addEventListener('click', () => {
-    const number1 = Number(inputOne.value);
-    const number2 = Number(inputTwo.value);
-    const result = number1 - number2;
-
-    allResults.textContent = result;
-}); 
-
-multButton.addEventListener('click', () => {
-    const number1 = Number(inputOne.value);
-    const number2 = Number(inputTwo.value);
-    const result = number1 * number2;
-
-    allResults.textContent = result;
-}); 
-
-divButton.addEventListener('click', () => {
-    const number1 = Number(inputOne.value);
-    const number2 = Number(inputTwo.value);
-    const result = number1 / number2;
-
-    allResults.textContent = result;
-});
  
 
 
