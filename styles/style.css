@@ -48,7 +48,7 @@ main {
 
 
 .title {
-    font-size: 4.5em;
+    font-size: 5em;
     color:#1d3557;
     padding: 20px;
     margin: 20px;
@@ -94,12 +94,6 @@ button:hover {
     transform: skew(-10deg);
       
  }
-
-
-span {
-    color: #457b9d;
-    font-family: 'Orbitron', sans-serif;
-}
 
 
 .results {
