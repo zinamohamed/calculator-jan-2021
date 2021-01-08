@@ -1,14 +1,5 @@
 
 body {
-    --color1: #1d3557;
-    --color2: #ffffff;
-    --color3: #ffffff;
-    --color4: #1d3557;
-    --color5: #ffffff;
-    width: 100%;
-    height: 100%;
-    padding: 0;
-    margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -38,7 +29,7 @@ main {
 }
 
 
-.inputs {
+.input-area {
     display:flex;
     flex-direction: column;
 }
@@ -71,7 +62,7 @@ content {
 
 
 
-input {
+.inputs {
     text-align: center;
     border: 1px solid #457b9d;
     font-size: 3em;
@@ -84,7 +75,7 @@ input {
 }
 
 
-button {
+.buttons {
     margin: 10px;
     border: none;
     background-color: white;
